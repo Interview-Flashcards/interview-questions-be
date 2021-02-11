@@ -17,4 +17,5 @@ jobs:
     - run: npm test
       env:
         CI: true
-        DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
+        DATABASE_URL: postgres://hkdajcvzuntdaj:0d9575b5e1fda2cea46bab322b507f787deb4470378dc5cee31bccfb59b4bd20@ec2-107-23-191-123.compute-1.amazonaws.com:5432/dcveec733kle2e
+        HEROKU_URL: https://interview-questions-be.herokuapp.com/questions
