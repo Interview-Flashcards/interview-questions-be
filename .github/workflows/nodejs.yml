@@ -19,3 +19,4 @@ jobs:
         CI: true
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
         HEROKU_URL: ${{ secrets.HEROKU_URL }}
+        PGSSLMODE: ${{ secrets.PGSSLMODE }}
