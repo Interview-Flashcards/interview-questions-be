@@ -1,8 +1,8 @@
-const pool = require('./pool');
+const pool = require('../lib/utils/pool');
 const fs = require('fs');
 
-const reformatData = () => {
+const setupPool = () => {
   return pool.query(fs.readFileSync('./sql/setup.sql', 'utf-8'));
 };
 
-module.exports = reformatData;
+module.exports = setupPool;
