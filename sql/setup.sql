@@ -7,5 +7,5 @@ CREATE TABLE questions (
   hint TEXT,
   category TEXT,
   tags TEXT[],
-  links TEXT[]
+  links JSONB
 );
